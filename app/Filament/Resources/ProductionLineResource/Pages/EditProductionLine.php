@@ -1,0 +1,11 @@
+<?php
+
+namespace App\Filament\Resources\ProductionLineResource\Pages;
+
+use App\Filament\Resources\ProductionLineResource;
+use Filament\Resources\Pages\EditRecord;
+
+class EditProductionLine extends EditRecord
+{
+    protected static string $resource = ProductionLineResource::class;
+}
